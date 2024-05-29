@@ -1,0 +1,23 @@
+{
+	"name": "vscode-theme-mix",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"license": "GPL-3.0-only",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "Mix",
+				"label": "%themeLabel%",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mix-dark.json"
+			}
+		]
+	}
+}
