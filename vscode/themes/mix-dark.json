@@ -221,8 +221,11 @@
 			"settings": { "foreground": "#ABB2BF" }
 		},
 		{
-			"name": "tag",
-			"scope": ["punctuation.definition.tag"],
+			"name": "tag template",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.definition.template-expression"
+			],
 			"settings": {
 				"foreground": "#BA3C97"
 			}
