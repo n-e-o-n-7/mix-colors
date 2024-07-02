@@ -1,11 +1,10 @@
 {
-	"name": "vscode-theme-mix",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"version": "1.0.0",
-	"license": "GPL-3.0-only",
+	"name": "mix",
+	"displayName": "Mix",
+	"description": "",
+	"version": "0.0.1",
 	"engines": {
-		"vscode": "*"
+		"vscode": "^1.90.0"
 	},
 	"categories": [
 		"Themes"
@@ -13,10 +12,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"id": "Mix",
-				"label": "%themeLabel%",
+				"label": "Mix",
 				"uiTheme": "vs-dark",
-				"path": "./themes/mix-dark.json"
+				"path": "./themes/Mix-color-theme.json"
 			}
 		]
 	}
